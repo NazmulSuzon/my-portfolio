@@ -1,0 +1,39 @@
+.banner{
+    background-image: url("../../image/1.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+.brand-icon-design{
+  
+    width: 15%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    right: 43%;
+    margin-top: 25px;
+    /* z-index: 1; */
+}
+@media only screen and (max-width: 750px) {
+    .brand-icon-design{
+        width:50%!important;
+        /* margin-top: 25px; */
+        right: 25%!important;
+        /* left:50%; */
+    }
+  }
+@media only screen and (max-width: 1250px) {
+    .brand-icon-design{
+        width:25%;
+        margin-top: 25px;
+        right: 37%;
+        /* left:50%; */
+    }
+  }
+
+  .brand-icon{
+    font-size: 2.4rem;
+    margin-right: 35px;
+    /* z-index: 2; */
+}
