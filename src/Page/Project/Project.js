@@ -13,7 +13,7 @@ const Project = () => {
   console.log(project);
 
   return (
-    <Container>
+    <Container id="projects">
       <h1 className="text-center my-5">Project</h1>
       <Row xs={1} md={2} lg={3} className="g-5 mt-5">
         {project.map((data) => {

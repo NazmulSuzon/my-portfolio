@@ -25,7 +25,7 @@ const Contact = () => {
   }
 
   return (
-    <div className="d-flex justify-content-center">
+    <div id="contact" className="d-flex justify-content-center">
       <Form onSubmit={sendEmail} className="p-5" style={{ width: "800px" }}>
         <Row className="mb-3">
           <Col>
