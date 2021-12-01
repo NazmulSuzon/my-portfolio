@@ -27,8 +27,8 @@ const Project = () => {
   console.log(project);
 
   return (
-    <Container id="projects" data-aos="fade-up"
-    data-aos-offset="100">
+    <Container name="projects" data-aos="fade-up"
+    data-aos-offset="100" className="pt-5">
       <h1 className="text-center my-5">Project</h1>
 
       <Slider {...settings}>
@@ -42,13 +42,6 @@ const Project = () => {
           );
         })}
         </Slider>
-
-      {/* <Row xs={1} md={2} lg={3} className="g-5 mt-5">
-        {project.map((data) => {
-          return <ProjectCard 
-          key={data.id} data={data}></ProjectCard>;
-        })}
-      // </Row> */}
     </Container>
   );
 };

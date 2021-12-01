@@ -11,7 +11,27 @@
 .slick-active {
     /* border: 2px solid blue; */
 }
-.slick-current .project-card{
+.slick-current .card-active{
 /* border: 1px solid green; */
-box-shadow: 1px 1px 7px gray;
+box-shadow: 1px 1px 23px gray;
+}
+.slick-next {
+    background-color: transparent;
+    width: 32px;
+    height:32px;
+}
+.slick-next::before {
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+    border-radius: 50%;
+}
+.slick-prev {
+    background-color: transparent;
+    width: 32px;
+    height:32px;
+}
+.slick-prev::before {
+    color: rgb(0, 0, 0);
+    opacity: 100%;
+    border-radius: 50%;
 }

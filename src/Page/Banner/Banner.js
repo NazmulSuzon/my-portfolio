@@ -16,9 +16,9 @@ const Banner = () => {
      <TypeAnimation
             cursor={true}
             sequence={[
-              'I am Nazmul Hasan.',
+              'I Am Nazmul Hasan.',
               2000,
-              'I am full stack Web Developer.',
+              'I Am Full Stack Web Developer.',
           2000
             ]}
             wrapper="h2"
@@ -26,7 +26,7 @@ const Banner = () => {
            />
      </div>
       <a
-        className="text-decoration-none mt-3 rounded px-4 py-2 fs-3 bg-danger text-light"
+        className="text-decoration-none mt-3 rounded px-4 py-2 fs-3 bg-dark text-light"
         href="https://drive.google.com/file/d/12UvmQlPIJQxAc--01LJJnTDRRVbBhdet/view?usp=sharing"
         target="_blank" rel="noopener noreferrer"
       >

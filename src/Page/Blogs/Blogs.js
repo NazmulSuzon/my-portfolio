@@ -8,8 +8,8 @@ const Blogs = () => {
 		AOS.init({duration:1100});
 	},[])
     return (
-        <section  id="blogs" style={{zIndex:'1'}}>
-            <div className="container pt-5">
+        <section  name="blogs" style={{zIndex:'1'}} className="my-5 pb-5">
+            <div className="container py-5 my-5">
             <h3 data-aos="fade-down" className="text-center mt-4 ">BLOGS</h3>
             <div data-aos="zoom-in" className="devider"></div>
             <div data-aos="fade-up" className="d-flex justify-content-around align-items-center mt-3">

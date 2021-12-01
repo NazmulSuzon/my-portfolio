@@ -1,5 +1,6 @@
 import { BrowserRouter, Switch, Route } from 'react-router-dom';
 import './App.css';
+import About from './Page/About/About';
 import Banner from './Page/Banner/Banner';
 import Blogs from './Page/Blogs/Blogs';
 import Contact from './Page/Contact/Contact';
@@ -16,22 +17,13 @@ function App() {
         <Route exact path="/">
           <Banner></Banner>
           <NavigationBar></NavigationBar>
-          <Project></Project>
-          <Blogs></Blogs>
-          <Contact></Contact>
-          <Footer></Footer>
-        </Route>
-        <Route  path="/home">
-          <Banner></Banner>
-          <NavigationBar></NavigationBar>
+          <About></About>
           <Project></Project>
           <Blogs></Blogs>
           <Contact></Contact>
           <Footer></Footer>
         </Route>
         <Route path="/projectDetails/:detailsId">
-          <NavigationBar></NavigationBar>
-          {/* <ProjectDetails></ProjectDetails> */}
           <Projects></Projects>
         </Route>
       </Switch>

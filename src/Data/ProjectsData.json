@@ -24,7 +24,8 @@
         "img1":"https://i.ibb.co/2yWgsN3/1.png",
         "img2":"https://i.ibb.co/q9phzj6/2.png",
         "img3":"https://i.ibb.co/Pr7qN6t/3.png",
-        "technologies":["ReactJs", "Firebase", "Bootstrap", "React Bootstrap", "NodeJs", "MongoDB", "ExpressJs"]  
+        "technologies":["ReactJs", "Firebase", "Bootstrap", "React Bootstrap", "NodeJs", "MongoDB", "ExpressJs"],
+        "description":["Users can order their food after login.", "Users can see their order of food in my order page.", "Users can remove their order of food."]
     },
     {
         "id":"3",
@@ -37,7 +38,8 @@
         "img1":"https://i.ibb.co/hyRyTkM/1.png",
         "img2":"https://i.ibb.co/41G15kX/2.png",
         "img3":"https://i.ibb.co/3hD71Zy/3.png",
-        "technologies":["ReactJs", "Firebase", "Bootstrap", "React Bootstrap."]
+        "technologies":["ReactJs", "Firebase", "Bootstrap", "React Bootstrap."],
+        "description":["Users can see what type of mental disorder exists.", "They can also see what service we provide.", "They can get appointments after login."]
     },
     {
         "id":"4",
@@ -50,6 +52,7 @@
         "img1":"https://i.ibb.co/6tdsC24/1.png",
         "img2":"https://i.ibb.co/4tn5bGG/2.png",
         "img3":"https://i.ibb.co/x81HDRv/3.png",
-        "technologies":["ReactJs", "Firebase", "Bootstrap", "React Bootstrap", "NodeJs", "MongoDB", "ExpressJs"] 
+        "technologies":["ReactJs", "Firebase", "Bootstrap", "React Bootstrap", "NodeJs", "MongoDB", "ExpressJs"] ,
+        "description":["Right Now, I am working on this project.", "In this project, I will add payment gatway system"]
     }
 ]

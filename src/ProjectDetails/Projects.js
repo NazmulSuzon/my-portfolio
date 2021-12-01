@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
-import { Card, CardGroup, Container } from "react-bootstrap";
+import { Button, Card, CardGroup, Container } from "react-bootstrap";
 import { useParams } from "react-router";
+import { Link } from "react-router-dom";
 import projectsData from "../Data/ProjectsData.json";
 
 const Projects = () => {
@@ -41,6 +42,18 @@ const Projects = () => {
              })
          }
      </ul>
+
+     <div className="d-flex justify-content-center mt-5">
+            <a className="text-decoration-none mt-3 me-3 flex-wrap rounded px-4 fs-5 bg-dark text-light" href={singleItemsData[0]?.github} target="_blank" rel="noopener noreferrer">
+              {" "}
+              Source Code
+            </a>
+            <a className="text-decoration-none mt-3 rounded px-4 fs-5 bg-dark text-light" href={singleItemsData[0]?.site} target="_blank" rel="noopener noreferrer">
+              {" "}
+              Live Site
+            </a>
+            </div>
+
      
      <h3 className="my-4 text-secondary">Project Screenshot</h3>
       <CardGroup>
@@ -54,6 +67,8 @@ const Projects = () => {
           <Card.Img variant="top" src={singleItemsData[0]?.img3} />
         </Card>
       </CardGroup>
+      
+      <Button className="bg-dark border-0 rounded my-5"><Link className="text-light text-decoration-none" to="/">Back To Home</Link></Button>
     </Container>
   );
 };

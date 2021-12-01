@@ -2,6 +2,7 @@ import React from 'react';
 import { Navbar, Nav } from 'react-bootstrap'
 import './NavigationBar.css'
 import { Link } from 'react-scroll';
+import {  NavLink } from "react-router-dom";
 
 const Navigationbar = () => {
   return (
@@ -13,7 +14,7 @@ const Navigationbar = () => {
       <Navbar.Collapse id="responsive-navbar-nav">
         <Nav className="m-auto all-nav-items">
           <div className="nav-item">
-            <Link to="/home" activeClass="active-class" spy={true} className="text-white mr-5 p-3 nav-link" offset={-55} exact to="about" smooth={true} duration={800}>ABOUT</Link>
+            <Link activeClass="active-class" spy={true} className="text-white mr-5 p-3 nav-link" offset={-55} exact to="about" smooth={true} duration={800}>ABOUT</Link>
           </div>
           <div className="nav-item">
             <Link activeClass="active-class" spy={true} className="text-white mr-4 p-3 nav-link" offset={-55} exact to="projects" smooth={true} duration={800}>
