@@ -5,7 +5,13 @@
         "title":"Car Selling",
         "github":"https://github.com/NazmulSuzon/car-selling-client",
         "site":"https://car-selling-4e889.web.app/",
-        "details":"In this Project, I create individual admin panel for admin and user panel for users. Here users can order any product and also they can remove."
+        "details":"In this Project, I create individual admin panel for admin and user panel for users. Here users can order any product and also they can remove.",
+        "animation":"flip-left",
+        "img1":"https://i.ibb.co/6m2nDT6/1.png",
+        "img2":"https://i.ibb.co/frxH89q/2.png",
+        "img3":"https://i.ibb.co/NyV22NX/3.png",
+        "technologies":["ReactJs", "Firebase", "Bootstrap", "React Bootstrap", "NodeJs", "MongoDB", "ExpressJs"],
+        "description":["In this Project, I create individual admin panel for admin and user panel for users.", "Firebase sign up and custom registration form.", "Users can order any services and buy products and see them in the user panel."]
     },
     {
         "id":"2",
@@ -13,7 +19,12 @@
         "title":"Food Delivery",
         "github":"https://github.com/NazmulSuzon/food-delivery-client",
         "site":"https://food-delivery-8b696.web.app/",
-        "details":"Here Users can order food after login. They can see their order of food in My Order page. They can remove their order of food."
+        "details":"Here Users can order food after login. They can see their order of food in My Order page. They can remove their order of food.",
+        "animation":"fade-zoom-in",
+        "img1":"https://i.ibb.co/2yWgsN3/1.png",
+        "img2":"https://i.ibb.co/q9phzj6/2.png",
+        "img3":"https://i.ibb.co/Pr7qN6t/3.png",
+        "technologies":["ReactJs", "Firebase", "Bootstrap", "React Bootstrap", "NodeJs", "MongoDB", "ExpressJs"]  
     },
     {
         "id":"3",
@@ -21,6 +32,24 @@
         "title":"Mental Health Care",
         "github":"https://github.com/NazmulSuzon/mental-health-care",
         "site":"https://mental-health-care-127b6.web.app/",
-        "details":"In our site, Users can see what type of mental disorder exists. They can also see what service we provide. They can get appointments after login."
+        "details":"In our site, Users can see what type of mental disorder exists. They can also see what service we provide. They can get appointments after login.",
+        "animation":"fade-right",
+        "img1":"https://i.ibb.co/hyRyTkM/1.png",
+        "img2":"https://i.ibb.co/41G15kX/2.png",
+        "img3":"https://i.ibb.co/3hD71Zy/3.png",
+        "technologies":["ReactJs", "Firebase", "Bootstrap", "React Bootstrap."]
+    },
+    {
+        "id":"4",
+        "img":"https://i.ibb.co/Syc9VPP/banner.png",
+        "title":"Luxury Living Client",
+        "github":"https://github.com/NazmulSuzon/luxury-living-client",
+        "site":"",
+        "details":"Right Now, I am working on this project.",
+        "animation":"fade-right",
+        "img1":"https://i.ibb.co/6tdsC24/1.png",
+        "img2":"https://i.ibb.co/4tn5bGG/2.png",
+        "img3":"https://i.ibb.co/x81HDRv/3.png",
+        "technologies":["ReactJs", "Firebase", "Bootstrap", "React Bootstrap", "NodeJs", "MongoDB", "ExpressJs"] 
     }
 ]

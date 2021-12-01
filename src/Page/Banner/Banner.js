@@ -1,17 +1,30 @@
-import React from "react";
-import { Button } from "react-bootstrap";
-import { Link } from 'react-scroll';
-import { faArrowRight } from '@fortawesome/free-solid-svg-icons';
+import React, { useEffect } from "react";
 import { faFacebook, faInstagramSquare, faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
-import { faFileDownload } from '@fortawesome/free-solid-svg-icons';
 import "./Banner.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import Aos from "aos";
+import TypeAnimation from 'react-type-animation';
 
 const Banner = () => {
+  
+  useEffect(() => {
+		Aos.init({ duration: 2000 });
+	}, [])
   return (
-    <div className="bg-dark banner d-flex flex-column justify-content-center align-items-center">
-      <h1 className="text-center">Hi! I am <span className="text-danger">Nazmul Hasan.</span></h1>
-      <h4>I am full stack web developer</h4>
+    <div  className="bg-dark banner d-flex flex-column justify-content-center align-items-center">
+     <div>
+     <TypeAnimation
+            cursor={true}
+            sequence={[
+              'I am Nazmul Hasan.',
+              2000,
+              'I am full stack Web Developer.',
+          2000
+            ]}
+            wrapper="h2"
+            repeat={Infinity}
+           />
+     </div>
       <a
         className="text-decoration-none mt-3 rounded px-4 py-2 fs-3 bg-danger text-light"
         href="https://drive.google.com/file/d/12UvmQlPIJQxAc--01LJJnTDRRVbBhdet/view?usp=sharing"

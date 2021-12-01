@@ -1,0 +1,17 @@
+.center{
+   
+}
+.slick-current{
+    padding: 6px 0;
+    /* overflow: hidden; */
+    /* transform: scale(1.1); */
+   
+    /* border: 2px solid red; */
+}
+.slick-active {
+    /* border: 2px solid blue; */
+}
+.slick-current .project-card{
+/* border: 1px solid green; */
+box-shadow: 1px 1px 7px gray;
+}
